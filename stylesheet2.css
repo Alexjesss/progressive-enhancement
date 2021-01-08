@@ -8,6 +8,8 @@ margin: auto;
 
 }
 
+
+
 #gorius {
 
     max-width: 90%;
@@ -16,6 +18,7 @@ margin: auto;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: calluna-regular, arial, serif;
+    background-position: bottom right;
 
 }
 
@@ -75,9 +78,9 @@ p { font-family: arial, serif;
 
 .good, .bad { text-transform: capitalize;}
 .good {color: green;}
-.bad {color: bad;}
+.bad {color: red;}
 
-.writer {top: 50px;}
+.writer {top: -50px;}
 
 blockquote {
 margin: auto;
@@ -86,7 +89,19 @@ padding: 5px;
     width: 45%;
 background-color: white;}
 
+.img-fluid {float: left !important;}
 
+aside {float: right;
+    z-index: 1;
+    position: relative;
+    top: 108px;}
+
+aside p {color: black;
+font-weight: bold;
+    padding:.5rem 1rem;
+    border:3px solid blue;
+    width:250px;
+    background-color: yellow;}
 
 q { margin: 80px 0 80px 0;
 font-size: 160%;
@@ -215,6 +230,10 @@ text-align: center;}
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     overflow: hidden;
+}
+
+.buttons:nth-child(2) {
+    background: yellow;
 }
 
 
