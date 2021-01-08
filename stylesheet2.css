@@ -3,10 +3,10 @@ margin: auto;
     background-image: url("images/china.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: right bottom;
     font-family: calluna-regular;
 
 }
+
 a {text-decoration: none;
 color: blue; }
 a:visited {color: purple;}
@@ -20,24 +20,60 @@ p { font-family: Serif;
 
 }
 
+.good, .bad { text-transform: uppercase;}
+
 .writer {top: 50px;}
 
 blockquote {
-margin: 0;
+margin: auto;
 text-align: center;
 padding: 5px;
     width: 45%;
 background-color: white;}
 
-q { width: 50%;
-margin: 0;}
+
+
+q { padding: 80px 0 80px 0;
+font-size: 160%;
+background-color: #d3d3d37d;}
 
 table { width: 50% !important;
-border:2px solid black !important;
+    border:2px solid black !important;
     --bs-table-striped-color: black !important;
-    --bs-table-striped-bg: #608d60db !important;}
+    margin: auto !important;
+    margin-top: 20px !important;}
 
-th a {cursor: pointer;}
+table figcaption {color: black;}
+
+.tabletext {color: black;
+font-weight: bold;}
+
+.tabletextbottom { color: black;
+    background-color: #ffffd5;
+    padding: 22px;
+
+}
+
+.conclusion {color: black;
+    padding: 0 !important;
+    background-color: #ffffd5;
+    position: absolute;
+}
+
+caption { caption-side: top !important;
+color: black;
+font-weight: bold;
+text-align: center;}
+
+tbody tr:nth-of-type(odd) {
+    background-color: #8fbc8f !important;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: #608d60db !important;
+}
+
+tr a {cursor: pointer;}
 
 .first-section, .fourth-section {background-color: rgba(143, 188, 143, 0.5);
     margin-top: 35px;
@@ -46,12 +82,10 @@ th a {cursor: pointer;}
 
 .second-section {background-color: rgba(99, 209, 99, 0.37);
     box-shadow: 0 0 5px #191919;
-    margin-right:auto;
-    margin-left: auto;
     padding: 50px;
     width: 70%;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 50px auto 50px auto;
+
 }
 
 hr {color: white;}
@@ -163,6 +197,34 @@ overflow: hidden;
  {
     left: 0;
     right: 0;
+}
+
+.footy {
+    background-color: #1c2820;
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    padding-top: 2rem;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer-text {
+
+    text-align: center;
+    color: #fffff0;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.source {color: #fffff0;
+padding: 0;
+text-align: center;
+    font-weight: bold;
 }
 
 
