@@ -5,8 +5,55 @@ margin: auto;
     background-size: cover;
     font-family: calluna-regular, arial, serif;
     background-position: bottom right;
+    min-height: 100vh;
 
 }
+
+.duif  {margin-bottom: 75px;}
+
+
+#contact h3 {text-align: center;
+padding: 5px;}
+
+#contact p { font-family: calluna-regular, arial, serif;
+    word-spacing: 5px;
+    font-size: 15px;
+    color: #241919;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+
+}
+
+
+#contact .footy {
+    background-color: #1c2820;
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    padding-top: 2rem;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#contact .footer-text {
+
+    text-align: center;
+    color: #fffff0;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+#contact  .source {color: #fffff0;
+    padding: 0;
+    text-align: center;
+    font-weight: bold;
+}
+
 
 
 
@@ -63,6 +110,18 @@ margin: auto;
     font-weight: bold;
 }
 
+
+#gorius p { font-family: calluna-regular, arial, serif;
+    word-spacing: 5px;
+    font-size: 15px;
+    color: #241919;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+
+}
+
+
 a {text-decoration: none;
 color: blue; }
 a:visited {color: purple;}
@@ -91,10 +150,11 @@ background-color: white;}
 
 .img-fluid {float: left !important;}
 
-aside {float: right;
-    z-index: 1;
-    position: relative;
-    top: 108px;}
+aside {position: -webkit-sticky;
+    position: sticky;
+    bottom: 1rem;
+    float: right;
+    align-self: flex-end;}
 
 aside p {color: black;
 font-weight: bold;
