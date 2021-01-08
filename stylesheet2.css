@@ -3,8 +3,61 @@ margin: auto;
     background-image: url("images/china.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: calluna-regular;
+    font-family: calluna-regular, arial, serif;
+    background-position: bottom right;
 
+}
+
+#gorius {
+
+    max-width: 90%;
+    margin: auto;
+    background-image: url("images/china.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: calluna-regular, arial, serif;
+
+}
+
+#gorius p { font-family: calluna-regular, arial, serif;
+               word-spacing: 5px;
+               font-size: 15px;
+               color: #241919;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+
+           }
+
+#gorius .second-section {background-color: rgba(99, 209, 99, 0.37);
+    box-shadow: 0 0 5px #191919;}
+
+#gorius .footy {
+    background-color: #1c2820;
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    padding-top: 2rem;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#gorius .footer-text {
+
+    text-align: center;
+    color: #fffff0;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+#gorius  .source {color: #fffff0;
+    padding: 0;
+    text-align: center;
+    font-weight: bold;
 }
 
 a {text-decoration: none;
@@ -13,14 +66,16 @@ a:visited {color: purple;}
 a:hover {color: #0cbfff;}
 
 
-p { font-family: Serif;
+p { font-family: arial, serif;
     word-spacing: 5px;
     font-size: 15px;
     color: #241919;
 
 }
 
-.good, .bad { text-transform: uppercase;}
+.good, .bad { text-transform: capitalize;}
+.good {color: green;}
+.bad {color: bad;}
 
 .writer {top: 50px;}
 
@@ -33,9 +88,16 @@ background-color: white;}
 
 
 
-q { padding: 80px 0 80px 0;
+q { margin: 80px 0 80px 0;
 font-size: 160%;
-background-color: #d3d3d37d;}
+background-color: #d3d3d37d;
+border-left: 3px dashed;
+padding: 30px;
+font-style: italic;}
+
+.farmer {border-left: 3px dashed deeppink;}
+.neighbors {border-left: 3px dashed blueviolet;}
+
 
 table { width: 50% !important;
     border:2px solid black !important;
@@ -129,18 +191,11 @@ h4 {color: #241919;
 text-align: center;}
 
 
-
-.header {
-    position: absolute;
-    z-index: 5;
-}
-
 .bg-light {padding: 0 50px 0 50px;
     background-color: #ffffff9e !important;
     box-shadow: 0 0 10px #00000038;
 
 }
-
 
 
 .navbuttons {list-style-type: none;
@@ -162,6 +217,8 @@ text-align: center;}
     overflow: hidden;
 }
 
+
+
 .buttons a {text-decoration: none;
 color: black;}
 
@@ -172,6 +229,8 @@ transform: perspective(1px) translateZ(0);
 box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 overflow: hidden;
 }
+
+
 
 .buttons:before {
     content: "";
@@ -189,6 +248,8 @@ overflow: hidden;
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
 }
+
+
 
 .buttons:hover:before,
 .buttons:focus:before,
